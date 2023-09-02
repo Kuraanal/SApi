@@ -1,0 +1,25 @@
+{
+	"name": "kuran/sapi",
+	"description": "A simple CRUD Api system",
+	"keywords": [
+		"crud",
+		"api"
+	],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "AGNEL Eric",
+			"email": "eric.agnel@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=8.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kuran\\SApi\\": "src/Kuran/SApi"
+		}
+	},
+	"minimum-stability": "stable"
+}
